@@ -18,7 +18,7 @@ public class Scripts : MonoBehaviour
         string mensagem = "Passou de nível!!";
 
         bool temChaveMestra = false;
-        if (forca > 5 && temChaveMestra == true) ;
+        if (forca > 5 && temChaveMestra == true);
         {
             Debug.Log("Próximo nível"); 
                 
