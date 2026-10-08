@@ -12,16 +12,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       transform.Translate(Vector2.up * directionInput * speed * Time.deltaTime);
         
-    
     
     }
 
 
-    public void OnMove(InputValue input)
+    public void OnMove(InputValue value)
     {
-
-
+        directionInput = value.Get<Vector2>(); 
+        
 
     }
 
