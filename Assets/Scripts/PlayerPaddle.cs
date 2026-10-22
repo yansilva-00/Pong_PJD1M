@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField] private float speed;//vai ser a variavel de multiplicador
-    private Vector2 directionInput;//vector2 valor em X e Y
+    private Vector2 directionInput;//armazenando o valor vector2 valor em X e Y
 
 
 
